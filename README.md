@@ -28,20 +28,20 @@ Make sure you have the following Python packages installed:
 - `scikit-learn`
 - `warnings`
 
-# Data
+## Data
 
 The dataset used in this project includes information about transactions. The data is used to train and evaluate the models.
 
 Data File: *fraud.csv*
 
-# Feature Engineering
+## Feature Engineering
 
 Feature engineering enhances the model's performance. In this project:
 - Transaction types were mapped to numerical values.
 - Only numerical columns were used for correlation analysis.
 - Features with high correlation were identified to avoid multicollinearity.
 
-# Modeling
+## Modeling
 
 Two classification models were applied to the dataset:
 - **Logistic Regression**
@@ -51,7 +51,7 @@ Each model was evaluated based on the following metrics:
 - **Accuracy Score**
 - **ROC AUC Score**
 
-# Results
+## Results
 
 The performance of each model was evaluated, and the results are as follows:
 
@@ -62,6 +62,6 @@ The performance of each model was evaluated, and the results are as follows:
   - **Accuracy:** 0.9989
   - **ROC AUC Score:** 0.5747
 
-# Conclusion
+## Conclusion
 
 This project demonstrates the effectiveness of various machine learning models in predicting fraudulent transactions. Based on the evaluation metrics, the Logistic Regression model outperforms the Decision Tree Classifier with a significantly higher ROC AUC Score of 0.9918. This indicates the Logistic Regression model's superior ability to distinguish between fraudulent and non-fraudulent transactions, making it the recommended model for deployment in real-world fraud detection scenarios.
